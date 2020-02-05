@@ -1,3 +1,6 @@
 # RubyLearn
+
 Hari Pertama
-hari kedua
+hari keduagit 
+hari ketiga
+barnch empat
