@@ -1,0 +1,5 @@
+saya sedang belajaar ruby
+Ruby adalah bahasa kerendjanggo
+rails
+React
+Laravel

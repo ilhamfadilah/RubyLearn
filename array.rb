@@ -100,3 +100,45 @@ puts hash[:dua]
 
 new_arr = %w(satu sua tiga empat lima)
 puts new_arr
+
+arr = [0,1,2,3,4]
+puts "#{arr.shuffle!}"
+puts "#{arr}"
+puts "==============="
+
+# Looping array
+total = 0
+while total < 5 do
+   puts "Total = #{total}"
+   total += 1
+end
+puts "==============="
+
+arr2 = [0,1,2,3,4,5]
+for item,index in arr2 do
+   puts "i"
+end
+puts "==============="
+
+arr2.map do |item,ind|
+   puts ind
+   puts item
+end
+
+puts "==============="
+array4 = [70,80,90,100]
+arraybaru = []
+array4.each do |item|
+   if item >= 70
+      arraybaru << item
+   end
+end
+puts arraybaru
+puts "============="
+# Select
+arraybaru = array.select do |item|
+   item < 100
+end
+puts "#{arraybaru}"
+puts "==========="
+puts "#{array.}"
