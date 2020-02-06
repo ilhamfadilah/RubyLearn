@@ -49,7 +49,7 @@ pembagian = -> (angka1, angka){
 }
 puts pembagian[12,2]
 
-def menu(*item)
+q   def menu(*item)
     puts item[0]
     puts item[1]
     puts item[2]
