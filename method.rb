@@ -49,7 +49,7 @@ pembagian = -> (angka1, angka){
 }
 puts pembagian[12,2]
 
-q   def menu(*item)
+   def menu(*item)
     puts item[0]
     puts item[1]
     puts item[2]
@@ -67,3 +67,8 @@ def setarray(itemA,itemB,itemC)
 end
 arrl = ['Barang','Thing','Device']
 setarray(*arrl)
+
+method = Proc.new do |nama , user |
+puts nama
+puts user 
+end

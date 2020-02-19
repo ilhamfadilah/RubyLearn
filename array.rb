@@ -136,9 +136,9 @@ end
 puts arraybaru
 puts "============="
 # Select
-arraybaru = array.select do |item|
-   item < 100
-end
-puts "#{arraybaru}"
-puts "==========="
-puts "#{array.}"
+# arraybaru = array.select do |item|
+#    item < 100
+# end
+# puts "#{arraybaru}"
+# puts "==========="
+# puts "#{array}"
